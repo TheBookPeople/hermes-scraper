@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.hermes-europe.co.uk/customerparceltrackingservice/trackingDetailsHermes.jsp?barcode=6005277042016680
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.4 Ruby/2.3.0p0 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - www.hermes-europe.co.uk
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 300
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=1602AF87F1BFC80EF2A7B478AC8030D6; Path=/customerparceltrackingservice
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Content-Length:
+      - '1829'
+      Date:
+      - Fri, 06 May 2016 11:50:02 GMT
+    body:
+      encoding: UTF-8
+      string: "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<html>\r\n<head>\r\n<style
+        type=\"text/css\"> \r\n.trackingTextHeader {\r\n\tfont-family: arial;\r\n\tfont-size:
+        16px;\r\n\tfont-weight: bold;\r\n}\r\n.trackingText {\r\n\tfont-family: arial;\r\n\tfont-size:
+        20px;\r\n}  \r\n\r\n</style>\r\n</head>\r\n<body >\r\n\r\n<table>\r\n<tr>\r\n<td>\r\n\t<img
+        src=\"images/hermes.jpg\"/>\r\n</td>\r\n</tr>\r\n<tr>\r\n<td align=\"center\">\r\n<div
+        class=\"trackingText\">\r\n\r\n\r\n\r\n\r\n<table>\r\n<tr class=\"trackingTextHeader\">\r\n<td
+        align=\"left\">\r\nDate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n</td>\r\n<td
+        align=\"left\">\r\nTime&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n</td>\r\n<td
+        align=\"left\">\r\nStatus&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n</td>\r\n\r\n</tr>\r\n<tr
+        class=\"trackingText\">\r\n<td>\r\n30/04/2016\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n</td>\r\n<td>\r\n
+        10:17\r\n</td>\r\n<td>\r\nSignature From Customer\r\n</td>\r\n</tr>\r\n\r\n\r\n</tr>\r\n<tr
+        class=\"trackingText\">\r\n<td>\r\n30/04/2016\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n</td>\r\n<td>\r\n
+        08:48\r\n</td>\r\n<td>\r\nCourier Received\r\n</td>\r\n</tr>\r\n\r\n\r\n</tr>\r\n<tr
+        class=\"trackingText\">\r\n<td>\r\n30/04/2016\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n</td>\r\n<td>\r\n
+        06:21\r\n</td>\r\n<td>\r\nManifested to Courier\r\n</td>\r\n</tr>\r\n\r\n\r\n</tr>\r\n<tr
+        class=\"trackingText\">\r\n<td>\r\n30/04/2016\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n</td>\r\n<td>\r\n
+        00:20\r\n</td>\r\n<td>\r\nProcessed at Depot\r\n</td>\r\n</tr>\r\n\r\n\r\n</tr>\r\n<tr
+        class=\"trackingText\">\r\n<td>\r\n29/04/2016\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n</td>\r\n<td>\r\n
+        18:45\r\n</td>\r\n<td>\r\nHub Trailer Via Sorter\r\n</td>\r\n</tr>\r\n\r\n\r\n</tr>\r\n<tr
+        class=\"trackingText\">\r\n<td>\r\n27/04/2016\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n</td>\r\n<td>\r\n
+        21:14\r\n</td>\r\n<td>\r\nOrder Generated\r\n</td>\r\n</tr>\r\n\r\n\r\n\r\n</table>\r\n</div>\r\n</td>\r\n</tr>\r\n</table>\r\n\r\n</body>\r\n</html>"
+    http_version: 
+  recorded_at: Fri, 06 May 2016 11:50:02 GMT
+recorded_with: VCR 3.0.1
