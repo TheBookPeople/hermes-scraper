@@ -1,6 +1,7 @@
 # Hermes::Scraper
 
 Scrapes parcel tracking data from the Hermes website.
+A more advanced but discontinued project exists at https://github.com/eljojo/polar_express
 
 ## Installation
 
