@@ -23,12 +23,9 @@ module Hermes
     private
 
     def tracking_text_elements(tracking_text_row)
-      elements = []
-      tracking_text_row.children.each do |child|
-        next unless child.is_a? Nokogiri::XML::Element
-        elements << child.children.first.text.tr(' ', ' ').strip
+      tracking_text_row.search('td/text()').map do |text_element|
+        text_element.text.tr(' ', ' ').strip # Unicode - beware!
       end
-      elements
     end
 
     def validate(elements)
