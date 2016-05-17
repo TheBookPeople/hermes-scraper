@@ -33,3 +33,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/TheBookPeople/hermes-scraper.
 
+## License
+
+Copyright 2016 The Book People Ltd.
+Licensed under the GNU General Public License, version 3. See LICENSE.TXT.
