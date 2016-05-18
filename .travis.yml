@@ -1,19 +1,5 @@
-language: ruby
 sudo: false
+language: ruby
 rvm:
-- 1.9.3
-- 2.0.0
-- 2.1.5
-- 2.2.0
-#addons:
-#  code_climate:
-#    repo_token:
-#      secure: 
-#deploy:
-#  provider: rubygems
-#  api_key:
-#    secure: 
-#  gem: hermes-scraper
-#  on:
-#    ruby: 2.0.0
-#    repo: TheBookPeople/hermes-scraper
+  - 2.3.0
+before_install: gem install bundler -v 1.12.1
