@@ -21,7 +21,9 @@ Or install it yourself as:
 
 ## Usage
 
-Hermes::Scraper.new('barcode here')
+  require 'hermes/scraper'
+
+  Hermes::Scraper.new('barcode here')
 
 ## Development
 
