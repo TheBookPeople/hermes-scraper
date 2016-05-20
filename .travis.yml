@@ -12,5 +12,4 @@ deploy:
   gem: hermes-scraper
     on:
       ruby: 2.3.0
-        repo: TheBookPeople/suppository
-
+      repo: TheBookPeople/suppository
