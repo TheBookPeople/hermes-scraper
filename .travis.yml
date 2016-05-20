@@ -7,9 +7,8 @@ deploy:
   provider: rubygems
   api_key:
     secure: CPyZedQhoHKJvQE7kaj9hv0Ghx9tG71zFRAbKPKAyOMmh1ZudfZagWQoGzjTQFOQ3AgQVTy9ZCJtBtyZ0onlUJ4/qt4rJWdUBCnktyBIYovZS5NmyXuyKWVOFSJo4HN/VFgKlC1oDTvP7Vc25sI4SruaYy6ySpWZIAsG7O6FyK2vwn/cQxbg54+BxPmalrRirGdZnZ7FcOzuePsf3j9UEage9yT7x7uA1c2LnVgk3OFDWqo3sBwtz8kwghbsg7pW8S66TJObDpN4pqiMNCbSauZwXRZPCnubrEkTLCgYr3h5Qq38KuK1KHXgdmQeUArtHE4ttc18pkChDmippeKNoAVEZuxPdA9LJ3JZjtdTzYPWJP7dsgShT7WSoAJzgQiCQPhQkvBU7sITCB4529uDtzprYF4yEY2o/+hPXqBcOQt9H+5ScpjG7QBdFyFF9QCN/hIsS/eIPLQbvdBuIKOMxF0yjDp/ScAWoFF0n5i0ZxDfxCvnMscgUzeGD/YJNrbgrnj87rnhK6BIqrMuBxhAF4bGtWWlwX17rcBBC1+go3tgZj6h92a+0R0K0vV0DNSHVPG45Q1WX+rQOIVjy2sSQEYiT3F+IMgHNmQLhHxqYkpEXHls5utuQRgs69iB8JtWB3+7fwpF/8C6bxt/zy8WqcpgaPZcAYOJUHi0qTT24tH8=
+  gem: hermes-scraper
   on:
     tags: true
-  gem: hermes-scraper
-    on:
-      ruby: 2.3.0
-      repo: TheBookPeople/suppository
+    ruby: 2.3.0
+    repo: TheBookPeople/suppository
