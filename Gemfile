@@ -4,6 +4,6 @@ source 'https://rubygems.org'
 gemspec
 
 group :test do
-  gem 'vcr', '~> 3.0.1'
+  gem 'vcr', '3.0.1'
   gem 'webmock', '~> 1.24.6'
 end
