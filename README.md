@@ -4,7 +4,6 @@
 [![Test Coverage](https://codeclimate.com/github/TheBookPeople/hermes-scraper/badges/coverage.svg)](https://codeclimate.com/github/TheBookPeople/hermes-scraper)
 [![Gem Version](https://badge.fury.io/rb/hermes-scraper.svg)](http://badge.fury.io/rb/hermes-scraper)
 
-
 Scrapes parcel tracking data from the Hermes website.
 A more advanced but discontinued project exists at https://github.com/eljojo/polar_express
 
