@@ -11,4 +11,4 @@ deploy:
   on:
     tags: true
     ruby: 2.3.0
-    repo: TheBookPeople/suppository
+    repo: TheBookPeople/hermes-scraper
