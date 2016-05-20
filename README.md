@@ -1,4 +1,9 @@
 # Hermes::Scraper
+[![Build Status](https://travis-ci.org/TheBookPeople/hermes-scraper.svg)](https://travis-ci.org/TheBookPeople/suppository)
+[![Code Climate](https://codeclimate.com/github/TheBookPeople/hermes-scraper/badges/gpa.svg)](https://codeclimate.com/github/TheBookPeople/suppository)
+[![Test Coverage](https://codeclimate.com/github/TheBookPeople/hermes-scraper/badges/coverage.svg)](https://codeclimate.com/github/TheBookPeople/hermes-scraper)
+[![Gem Version](https://badge.fury.io/rb/hermes-scraper.svg)](http://badge.fury.io/rb/hermes-scraper)
+
 
 Scrapes parcel tracking data from the Hermes website.
 A more advanced but discontinued project exists at https://github.com/eljojo/polar_express
@@ -21,10 +26,11 @@ Or install it yourself as:
 
 ## Usage
 
-  require 'hermes/scraper'
+```ruby
+require 'hermes/scraper'
 
-  Hermes::Scraper.new('barcode here')
-
+Hermes::Scraper.new('barcode here')
+```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
