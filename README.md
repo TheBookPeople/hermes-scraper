@@ -1,6 +1,6 @@
 # Hermes::Scraper
-[![Build Status](https://travis-ci.org/TheBookPeople/hermes-scraper.svg)](https://travis-ci.org/TheBookPeople/suppository)
-[![Code Climate](https://codeclimate.com/github/TheBookPeople/hermes-scraper/badges/gpa.svg)](https://codeclimate.com/github/TheBookPeople/suppository)
+[![Build Status](https://travis-ci.org/TheBookPeople/hermes-scraper.svg)](https://travis-ci.org/TheBookPeople/hermes-scraper)
+[![Code Climate](https://codeclimate.com/github/TheBookPeople/hermes-scraper/badges/gpa.svg)](https://codeclimate.com/github/TheBookPeople/hermes-scraper)
 [![Test Coverage](https://codeclimate.com/github/TheBookPeople/hermes-scraper/badges/coverage.svg)](https://codeclimate.com/github/TheBookPeople/hermes-scraper)
 [![Gem Version](https://badge.fury.io/rb/hermes-scraper.svg)](http://badge.fury.io/rb/hermes-scraper)
 
